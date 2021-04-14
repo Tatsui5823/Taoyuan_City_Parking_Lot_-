@@ -32,6 +32,8 @@ import csv, sys, ssl
 plt.rcParams['font.sans-serif'] = ['SimSun'] # 步驟一（替換sans-serif字型）
 plt.rcParams['axes.unicode_minus'] = False  # 步驟二（解決座標軸負數的負號顯示問題）
 
+print('Version 3')
+
 # 找有空位的停車場
 def find_surplusSpace():
     surplusWindow = tk.Toplevel(win)  # 開新視窗 surplusWindow
